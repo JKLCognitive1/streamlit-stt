@@ -142,6 +142,11 @@ with sound:
         kpi2_col.write('&emsp;6 sec.')
         kpi2_col.markdown('<div style="text-align:left"><p class="small-font">&#8226; <b> Customer renunciation answer: </b></p></div>', unsafe_allow_html=True)
         kpi2_col.write('&emsp;1 sec.')
+        kpi2_col.markdown('<div style="text-align:left"><p class="small-font">&#8226; <b> Operator Accent: </b></p></div>', unsafe_allow_html=True)
+        kpi2_col.write('&emsp;Tunisian: 91%')
+        kpi2_col.write('&emsp;Italian: 8%')
+        kpi2_col.write('&emsp;Other: 1%')
+        
 
 
     st.write('\n\n\n')
